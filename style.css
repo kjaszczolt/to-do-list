@@ -5,3 +5,37 @@ html {
 *, ::before, ::after {
     box-sizing: inherit;
 }
+
+.body {
+    font-family: "Montserrat", serif;
+    background-color: rgb(238, 237, 237);
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+}
+
+.block {
+    margin-bottom: 5px;
+    background-color: white;
+    border: solid 0.5px rgb(224, 224, 224);
+    border-collapse: collapse;
+}
+
+.block__header {
+    height: 35px;
+    padding-left: 15px;
+    background-color: white;
+    border-bottom: solid 0.5px rgb(224, 224, 224);
+    border-collapse: collapse;
+    font-size: 110%;
+}
+
+.header {
+    margin: 40px 40px 20px 0px;
+    font-size: 170%;
+}
+
+.list {
+    background-color: white;
+    list-style-type: none;
+}

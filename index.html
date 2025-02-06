@@ -9,19 +9,28 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <script src="script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
-<body>
+<body class="body">
+    <p class="header">
+        <strong>Lista zadań</strong>
+    </p>
     <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie</button>
+        <div class="block">
+            <p class="block__header"><strong>Dodaj nowe zadanie</strong></p>
+            <p>
+                <input class="js-newTask" placeholder="Co jest do zrobienia?">
+                <button>Dodaj zadanie</button>
+            </p>
+        </div>
     </form>
-
-    <ul class="js-tasks"></ul>
+    <div class="block">
+        <p class="block__header"><strong>Lista zadań</strong></p>
+        <ul class="js-tasks list"></ul>
+    </div>
 
 </body>
 
