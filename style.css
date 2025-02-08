@@ -60,6 +60,10 @@ html {
     cursor: pointer;
 }
 
+.button__check--done {
+    color: white;
+}
+
 .button__remove {
     aspect-ratio: 1 / 1;
     height: 24px;
@@ -91,6 +95,10 @@ html {
 
 .list__content {
     word-break: break-word;
+}
+
+.list__content--done {
+    text-decoration: line-through;
 }
 
 @media (max-width: 767px) {
