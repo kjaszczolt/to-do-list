@@ -54,3 +54,9 @@ html {
     background-color: white;
     list-style-type: none;
 }
+
+@media (max-width: 767px) {
+    .block__addTask {
+        grid-template-columns: 1fr;
+    }
+}
