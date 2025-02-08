@@ -50,6 +50,14 @@ html {
     cursor: pointer;
 }
 
+.button__addTask:hover {
+    background-color: rgba(0, 128, 128, 0.8);
+}
+
+.button__addTask:active {
+    background-color: rgba(3, 158, 158, 0.8);
+}
+
 .button__check {
     aspect-ratio: 1 / 1;
     height: 24px;
@@ -58,6 +66,15 @@ html {
     color: green;
     background-color: green;
     cursor: pointer;
+}
+
+
+.button__check:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.button__check:active {
+    background-color: rgba(6, 172, 6, 0.8);
 }
 
 .button__check--done {
@@ -72,6 +89,14 @@ html {
     color: rgb(255, 220, 220);
     background-color: red;
     cursor: pointer;
+}
+
+.button__remove:hover {
+    background-color: rgb(241, 107, 107);
+}
+
+.button__remove:active {
+    background-color: rgb(235, 135, 135);
 }
 
 .list {
