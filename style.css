@@ -14,26 +14,6 @@ html {
     padding: 60px;
 }
 
-.block {
-    background-color: white;
-    border: solid 0.5px rgb(224, 224, 224);
-    margin: 10px;
-}
-
-.block__header {
-    height: 35px;
-    padding-left: 15px;
-    border-bottom: solid 0.5px rgb(224, 224, 224);
-    font-size: 110%;
-}
-
-.block__addTask {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 20px;
-}
-
 .header {
     margin: 10px;
     font-size: 170%;
@@ -43,66 +23,6 @@ html {
     padding-left: 10px;
     height: 40px;
     border: solid 2px rgb(236, 236, 236);
-}
-
-.button {
-    text-align: center;
-}
-
-.button__addTask {
-    height: 40px;
-    color: white;
-    background-color: teal;
-    border: none;
-    cursor: pointer;
-}
-
-.button__addTask:hover {
-    background-color: rgba(0, 128, 128, 0.8);
-}
-
-.button__addTask:active {
-    background-color: rgba(3, 158, 158, 0.8);
-}
-
-.button__check {
-    aspect-ratio: 1 / 1;
-    height: 24px;
-    border: none;
-    text-align: center;
-    color: green;
-    background-color: green;
-    cursor: pointer;
-}
-
-.button__check--done {
-    color: white;
-}
-
-.button__check:hover {
-    background-color: rgba(0, 128, 0, 0.8);
-}
-
-.button__check:active {
-    background-color: rgba(6, 172, 6, 0.8);
-}
-
-.button__remove {
-    aspect-ratio: 1 / 1;
-    height: 24px;
-    border: none;
-    text-align: center;
-    color: rgb(255, 220, 220);
-    background-color: red;
-    cursor: pointer;
-}
-
-.button__remove:hover {
-    background-color: rgb(241, 107, 107);
-}
-
-.button__remove:active {
-    background-color: rgb(235, 135, 135);
 }
 
 .list {

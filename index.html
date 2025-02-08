@@ -9,6 +9,8 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
+    <link href="button.css" rel="stylesheet">
+    <link href="block.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="script.js" defer></script>
@@ -20,16 +22,17 @@
         <div class="block">
             <p class="block__header"><strong>Dodaj nowe zadanie</strong></p>
             <p class="block__addTask">
-                <input class="js-newTask input" placeholder="Co jest do zrobienia?">
+                <input class="js-newTask input" placeholder="Co jest do zrobienia?" autofocus>
                 <button class="button__addTask">Dodaj zadanie</button>
             </p>
         </div>
     </form>
     <div class="block">
         <p class="block__header"><strong>Lista zadań</strong></p>
-        <ul class="js-tasks list"></ul>
-        <li class="list__item">
-        </li>
+        <ul class="js-tasks list">
+            <li class="list__item">
+            </li>
+        </ul>
     </div>
 
 </body>

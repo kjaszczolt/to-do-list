@@ -1,0 +1,19 @@
+.block {
+    background-color: white;
+    border: solid 0.5px rgb(224, 224, 224);
+    margin: 10px;
+}
+
+.block__header {
+    height: 35px;
+    padding-left: 15px;
+    border-bottom: solid 0.5px rgb(224, 224, 224);
+    font-size: 110%;
+}
+
+.block__addTask {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
