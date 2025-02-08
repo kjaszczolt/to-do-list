@@ -1,0 +1,26 @@
+.list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    list-style-type: none;
+    align-items: center;
+}
+
+.list__item {
+    border-bottom: solid 0.5px rgb(224, 224, 224);
+    margin: 0 20px 15px 20px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.list__content {
+    word-break: break-word;
+}
+
+.list__content--done {
+    text-decoration: line-through;
+}
